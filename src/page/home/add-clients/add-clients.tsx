@@ -33,7 +33,7 @@ const AddClients: React.FC = () => {
     var axios = require('axios');
     var config = {
       method: 'post',
-      url: 'http://appclients-env-1.eba-9k3ypr2g.us-east-1.elasticbeanstalk.com/crearcliente',
+      url: 'https://appclientsnodejs.herokuapp.com/crearcliente',
       headers: {
         'Content-Type': 'application/json'
       },

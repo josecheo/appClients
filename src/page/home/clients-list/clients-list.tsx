@@ -37,7 +37,7 @@ const ListAlumnos: React.FC = () => {
 
   var config = {
     method: 'get',
-    url: 'http://appclients-env-1.eba-9k3ypr2g.us-east-1.elasticbeanstalk.com/listclientes',
+    url: 'https://appclientsnodejs.herokuapp.com/listclientes',
     headers: {
       'Content-Type': 'application/json'
     }
