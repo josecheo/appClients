@@ -37,7 +37,7 @@ const ListAlumnos: React.FC = () => {
 
   var config = {
     method: 'get',
-    url: 'http://localhost:4000/listclientes',
+    url: 'http://appclients-env.eba-kxr2tiw7.us-east-1.elasticbeanstalk.com/listclientes',
     headers: {
       'Content-Type': 'application/json'
     }

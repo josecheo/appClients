@@ -16,7 +16,7 @@ const ResumeClients: React.FC = () => {
   var axios = require('axios');
   var config = {
     method: 'get',
-    url: 'http://localhost:4000/kpiclientes',
+    url: 'http://appclients-env.eba-kxr2tiw7.us-east-1.elasticbeanstalk.com/kpiclientes',
     headers: {
       'Content-Type': 'application/json'
     }
