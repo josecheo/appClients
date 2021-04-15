@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+    color: #0b2739;
+    font-size: 16px;
+    ::-webkit-scrollbar {
+                width: 3px;
+            }
+            ::-webkit-scrollbar-thumb {
+                border-radius: 0.25rem;
+                background-color: #0b2739;
+            }
+            ::-webkit-scrollbar-track {
+                border-radius: 0.25rem;
+                background-color: rgba(#fff, 0.25);
+            }}

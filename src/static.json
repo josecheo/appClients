@@ -1,0 +1,6 @@
+{
+   " root " : " build / " ,
+   " rutas " : {
+     " / ** " : " index.html "
+  }
+}
