@@ -33,6 +33,7 @@ const ResumeClients: React.FC = () => {
       .catch(function (error: any) {
         console.log(error);
       });
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
 

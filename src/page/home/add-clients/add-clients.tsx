@@ -24,7 +24,7 @@ const AddClients: React.FC = () => {
   }
 
   const onChangeDate = (e: any) => {
-    setForm({ ...form, ['fnacimiento']: e ? moment(e._d).format('YYYY-MM-DD') : '' })
+    setForm({ ...form, 'fnacimiento': e ? moment(e._d).format('YYYY-MM-DD') : '' })
   }
 
   const handleSubmit = () => {

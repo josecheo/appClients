@@ -7,7 +7,6 @@ import History from './history';
 
 
 const Home = lazy(() => import('./page/home'))
-const Lista = lazy(() => import('./page/home/clients-list/clients-list'))
 const Routes: React.FC = () => {
   return (
 
